@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números Primos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/gridAnimacao.css">
+    <link rel="shortcut icon" href="./assets/img/logoIcone.png" type="image/x-icon">
+</head>
+<body>
+    <div class="containerAnimacao">
+        <div style="--i:11" class="div1"> </div>
+        <div style="--i:21" class="div2"> </div>
+        <div style="--i:16" class="div3"> </div>
+        <div style="--i:19" class="div4"> </div>
+        <div style="--i:11" class="div5"> </div>
+        <div style="--i:9" class="div6"> </div>
+        <div style="--i:26" class="div7"> </div>
+        <div style="--i:21" class="div8"> </div> 
+        <div style="--i:13" class="div9"> </div>
+        <div style="--i:20" class="div10"> </div>
+        <div style="--i:14" class="div11"> </div>
+        <div style="--i:16" class="div12"> </div>
+        <div style="--i:17" class="div13"> </div>
+        <div style="--i:24" class="div14"> </div>
+        <div style="--i:25" class="div15"> </div>
+        <div style="--i:12" class="div16"> </div>
+        </div>
+    <header class="header">
+        <div class="minhaLogo">
+            <a href="https://nexxto.com"><img src="./assets/img/NexxtoBanner.png" class="imgHeader"></a>
+            <a href="https://fabricio-p-viana.github.io/meuPortifolio/"><img src="./assets/img/meu_logo.png" class="imgHeader"></a>
+        </div>
+    </header>
+    <section class="gridCentral">
+        <div class="containertitulo">
+            <h1>Números Primos</h1>
+        </div>
+        <div class="divNumAnalise">
+            <div><h1 style="font-size: 1.7em;">Valida Número</h1></div>
+            <input type="number" name="testThisPrime" id="testThisPrime" onchange="redenrizaValida()">
+            <h1 id="resultado" class="resultado"></h1>
+        </div>
+        <div class="divRangeAnalise">
+            <div><h1 style="font-size: 1.7em;">Gera Sequência</h1></div>
+            <span> de </span>
+            <input type="number" id="startInclude" required>
+            <span> até </span>
+            <input type="number" id="endExclude" required>
+            <button onclick="printAllPrimes()">Gerar</button><br>
+            <h4 id="resultadoArray" class="resultado"></h4>
+        </div>
+    </section>
+    <footer class="footer">
+        <p style="color:white;">Processo seletivo NEXXTO 2024.</p>
+        <a href="https://github.com/Fabricio-P-Viana/NumerosPrimosNEXXTO" style="text-decoration: none;color:white;"><p class="desafioFooter">Desafio: Números primos.</p></a>
+    </footer>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

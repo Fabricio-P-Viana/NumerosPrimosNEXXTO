@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+body{
+    color: #30c4e9;
+}
+button{
+    background-color: #30c4e9;
+    color: white;
+    padding: 5px;
+    border-radius: 3px 5px;
+    border: none;
+}
+.gridCentral {
+    position: absolute;
+    top: 30%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.divNumAnalise { 
+    padding: 40px 0;
+}
+.divRangeAnalise { 
+    & input{
+        width: 100px;
+    }
+ }
+
+input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none;}
+input[type=number] { -moz-appearance: textfield;appearance: textfield;}
+
+.containertitulo { 
+    font-size: 2.5em;
+}
+.header,footer{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.header{
+    top: 0;
+}
+.footer{
+    bottom: 3%;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.minhaLogo{
+    margin: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 4;
+    width: 100%;
+}
+.imgHeader{
+    height: 60px;
+}
+
+.desafioCotainer{
+    position: absolute;
+}
+.resultado{
+    padding: 5px 50px;
+}
+.desafioFooter:hover{
+    transition: all 100ms ease;
+    color: #30c4e9;
+}
