@@ -1,0 +1,21 @@
+@media (max-width:640px) {  
+    .containertitulo { 
+        font-size: 1.5em;
+    }
+    .footer{
+        font-size: .5em;
+    }
+    .minhaLogo{
+        margin: 20px 40px;
+    }
+    .imgHeader{
+        height: 30px;
+    }
+    .resultado{
+        padding: 5px 25px;
+        font-size: .8em;
+    }
+}
+
+
+
